@@ -43,7 +43,7 @@ const numberEl = document.getElementById("number");
     let currentNumber = 0;
 
     function generateNumber() {
-      currentNumber = Math.floor(Math.random() * 500000) + 1;
+      currentNumber = Math.floor(Math.random() * 50000) + 1;
       numberEl.textContent = "¥" + currentNumber.toLocaleString();
       readingEl.textContent = "";
     }
