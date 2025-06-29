@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .flashcard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .number {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+  }
+  
+  .reading {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem 0;
+    min-height: 1.5em;
+    word-wrap: break-word;
+  }
+  
+  button {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: make text a little larger on very small screens */
+  @media (max-width: 400px) {
+    .number {
+      font-size: 1.8rem;
+    }
+    .reading {
+      font-size: 1.1rem;
+    }
+  }
+  
